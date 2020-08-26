@@ -1,19 +1,5 @@
-header .cv-photo {
-    border-top-left-radius: 1000px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 7px;
-
-    width: 100%;
-
-    /* combined rule */
-    border-radius: 1000px 10px 7px 20px;
-
-    /* setting radius in percent and pther units */
+ header .cv-photo img {
     border-radius: 50%;
-
-    /* additional ways to select sides or corners */
-    border-radius: 20px 100px;
-
-    border-radius: 10px 50px 100px;
-}
+    width: 100%;
+    overflow:hidden;
+    } 
