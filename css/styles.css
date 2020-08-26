@@ -1,5 +1,25 @@
- header .cv-photo img {
+ header .cv-photo {
     border-radius: 50%;
-    width: 100%;
+    width: 150px;
+    height: 150px;
     overflow:hidden;
+    margin: auto;
+    } 
+
+header .cv-photo img {
+    width: 100%;
+    } 
+
+nav a {
+    display: block;
+    background-color: gray;
+    margin: 1px;
+    position: relative;
+    }
+        
+nav a::after {
+    content: ">";
+    position: absolute;
+    right: 5px;
+    color: white;
     } 
