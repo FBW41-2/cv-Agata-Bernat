@@ -15,6 +15,7 @@ nav a {
     background-color: gray;
     margin: 1px;
     position: relative;
+    padding: 5px;
     }
         
 nav a::after {
