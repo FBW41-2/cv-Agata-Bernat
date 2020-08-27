@@ -24,3 +24,25 @@ nav a::after {
     right: 5px;
     color: white;
     } 
+
+
+.skill .progress-bar {
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius 6px;
+}
+
+.skill .progress {
+    background-color: aqua;
+    height: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    display: block;
+}
+
+.skill h3 {
+    display: inline;
+}
