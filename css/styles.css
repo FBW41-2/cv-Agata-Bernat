@@ -47,3 +47,16 @@ nav a {
 .skill h3 {
     display: inline;
 }
+.project a img .project a span {
+    display: block;
+    color: sandybrown;
+}
+.project {
+    width: 250px;
+    height: 250px;
+    overflow:hidden;
+    } 
+
+    .project a img {
+    width: 100%;
+    } 
