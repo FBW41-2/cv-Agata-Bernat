@@ -1,3 +1,7 @@
+html.rtl {
+    direction: ltr;
+  } 
+ 
  header .cv-photo {
     border-radius: 50%;
     width: 150px;
@@ -55,8 +59,32 @@ nav a {
     width: 250px;
     height: 250px;
     overflow:hidden;
-    } 
+ } 
 
-    .project a img {
+.project a img {
     width: 100%;
-    } 
+ } 
+
+
+header {
+    text-align: center;
+  }
+
+h2 {
+    text-align: center;
+  }
+
+.a {
+      list-style-position: outside;
+  }
+@media screen and (min-width: 768px) {
+      nav a {
+        display:inline;
+      }
+  }
+ 
+  @media (max-width: 1199.98px) {
+      main .p {
+          box-sizing: content-box;
+      }
+  }
